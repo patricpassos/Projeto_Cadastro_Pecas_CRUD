@@ -24,8 +24,8 @@ public class Cadastro {
 			String line = br.readLine();
 			if (line != null) {
 				String[] header = line.split(",");
-				System.out.printf("\n%-15s %-15s %-15s %-15s %-15s %-15s \n", header[0].trim(), header[1].trim(),
-						header[2].trim(), header[3].trim(), header[4].trim(), header[4].trim());
+				System.out.printf("\n%-15s %-15s %-15s %-20s %-15s %-15s \n", header[0].trim(), header[1].trim(),
+						header[2].trim(), header[3].trim(), header[4].trim(), header[5].trim());
 				System.out.println(
 						"-----------------------------------------------------------------------------------------------");
 			}
